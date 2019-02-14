@@ -4,27 +4,49 @@
     <meta charset="utf-8">
     <title>Creative Monkeyz</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   </head>
   <body>
 
-    <header class="dropShadow">
+    <header class="containerShadow">
       <h1>Creative Monkeyz</h1>
-      <div id="navWrapper" class="dropShadow">
-        <div id="twitchButton" class="navButton">
-          <p id="twitchText" class="navText">Twitch</p>
+      <div id="navbar">
+        <div id="twitchButton" class="button">
+          <p>Twitch</p>
         </div>
-        <div id="siteButton" class="navButton">
-          <p id="siteText" class="navText">CM Site</p>
+        <div id="siteButton" class="button">
+          <p>CM Site</p>
         </div>
       </div>
     </header>
 
-
-
     <main>
-      <div id="topMain"></div>
-      <div id="bottomMain"></div>
+      <div id="topBody" class="articleDiv">
+        <div id="img-div" class="imageDiv">
+          <img src="images/logo.png" id="image" alt="Creative Monkeyz logo">
+          <p id="img-caption">A creative monkey's tools</p>
+        </div>
+        <article id="tribute-info">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget mauris urna. Cras vehicula nisi vitae tortor rutrum, at pulvinar orci dapibus.</p>
+          <p>Nulla venenatis cursus porttitor. In a nibh felis. Curabitur dictum justo quis elit pharetra, ut varius neque cursus. Maecenas auctor diam eget blandit varius.</p>
+          <p>Proin commodo dolor vitae nibh volutpat, non mollis mauris finibus.</p>
+        </article>
+      </div>
+      <div id="bottomBody" class="articleDiv">
+        <article>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget mauris urna. Cras vehicula nisi vitae tortor rutrum, at pulvinar orci dapibus.</p>
+          <p>Nulla venenatis cursus porttitor. In a nibh felis. Curabitur dictum justo quis elit pharetra, ut varius neque cursus. Maecenas auctor diam eget blandit varius.</p>
+          <p>Proin commodo dolor vitae nibh volutpat, non mollis mauris finibus.</p>
+        </article>
+        <div class="imageDiv">
+          <img src="images/ramo_and_codewin.png">
+        </div>
+      </div>
     </main>
+
+    <footer>
+      <p>For more information about them you can check their wikipedia entry</p>
+    </footer>
 
   </body>
 </html>
