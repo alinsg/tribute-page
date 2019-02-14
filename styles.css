@@ -56,7 +56,7 @@ h1 {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-#siteButton > p{
+#siteButton > p {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -74,4 +74,61 @@ h1 {
   left: 50%;
   margin-left: -200px;
   bottom: -25px;
+}
+
+#topMain {
+  display: flex;
+  align-items: center;
+}
+
+#topMain > imageDiv {
+  float: left;
+}
+
+#topMain > article {
+  float: right;
+}
+
+#image {
+  width: 250px;
+  height: 237px;
+}
+
+#img-caption {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 200;
+  line-height: normal;
+  font-size: 18px;
+  color: #000000;
+}
+
+#bottomMain {
+  display: flex;
+  align-items: center;
+}
+
+#bottomMain > imageDiv {
+  float: right;
+}
+
+#bottomMain > article {
+  float: left;
+}
+
+.imageDiv {
+  height: 412px;
+  width: 490px;
+}
+
+footer {
+  display: flex;
+  background: #000000;
+  align-items: center;
+  justify-content: center;
+}
+
+footer > p {
+  color: #FFB800;
+  text-align: center;
 }
